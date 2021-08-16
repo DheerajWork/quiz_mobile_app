@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:quiz_mobile_app/UI/model_class/question_model_class.dart';
 import 'package:quiz_mobile_app/UI/screens/Question%20Screen.dart';
-import 'package:quiz_mobile_app/UI/screens/login_screen.dart';
-import 'package:quiz_mobile_app/UI/screens/register_screen.dart';
+import 'package:quiz_mobile_app/UI/screens/result_screen.dart';
 import 'package:quiz_mobile_app/UI/screens/splash_screen.dart';
 
 void main() {
@@ -16,6 +16,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       home: Splashscreen(),
+      routes: {
+        ResultScreen.route : (context) => ResultScreen()
+      },
     );
   }
 }

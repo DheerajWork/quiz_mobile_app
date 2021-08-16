@@ -49,7 +49,6 @@ class _RegisterScreenState extends State<RegisterScreen> {
       print("${registerData['message']}");
       Fluttertoast.showToast(msg: registerData['message']);
     }
-
   }
 
   getPref ()async{

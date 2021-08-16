@@ -1,7 +1,4 @@
-import 'package:flutter/material.dart';
-
 class MyStrings {
-
   static String englishFor = 'English For Beginner';
   static String registration = 'Registration';
   static String userName = 'User Name';
